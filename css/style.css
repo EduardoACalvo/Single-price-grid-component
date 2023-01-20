@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+}
+
+.top_center {
+    border-radius: 10px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.top_center>h1 {
+    margin-bottom: 10px;
+}
+
+.top_center>h2 {
+    margin-bottom: 10px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom_left {
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #2bb3b1;
+}
+
+.bottom_left>.h2_bottom {
+    margin-bottom: 10px;
+}
+
+.bottom_left>.cost {
+    margin-bottom: 10px;
+}
+
+.bottom_left>p {
+    margin-bottom: 15px;
+}
+
+.bottom_right {
+    width: 50%;
+    border-bottom-right-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #4abebd;
+    line-height: 20px;
+}
+
+.bottom_right>.h2_bottom {
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #e6eff6;
+}
+
+.cost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cost>div {
+    margin-right: 15px;
+}
+
+.cost_value {
+    font-size: 20px;
+    color: white;
+}
+
+.cost_month {
+    font-size: 11px;
+    color: rgb(224, 208, 208);
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: 150px;
+    height: 250px;
+    width: 500px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #3cb1ab;
+}
+
+h2 {
+    font-size: 14px;
+    color: #bed257;
+}
+
+.h2_bottom {
+    font-size: 14px;
+    color: white;
+}
+
+.top_center>p {
+    font-size: 11px;
+    color: grey;
+}
+
+button {
+    height: 40px;
+    background-color: #bfdf32;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+button:hover {
+    color: #bfdf32;
+    background-color: white;
+    cursor: pointer;
+}
+
+p {
+    font-size: 11px;
+    color: white;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .frame {
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        margin-top: 150px;
+        width: 250px;
+    }
+    .top_center {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 0;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .bottom_left {
+        width: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #2bb3b1;
+        border-radius: 0;
+    }
+    .bottom_right {
+        width: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-color: #4abebd;
+        line-height: 20px;
+        border-radius: 0;
+    }
+}
